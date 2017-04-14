@@ -1,0 +1,47 @@
+{
+  "name": "nicoherbig/typo3-cms-configuration",
+  "description": "TYPO3 CMS Configuration",
+
+  "keywords": ["TYPO3 CMS"],
+  "homepage": "https://github.com/nicoherbigio/typo3-cms-configuration",
+  "license": "GPL-3.0+",
+
+  "authors": [
+    {
+      "name": "Nico Herbig",
+      "email": "info@nicoherbig.io",
+      "homepage": "https://www.nicoherbig.io",
+      "role": "Developer"
+    }
+  ],
+
+  "support": {
+    "issues": "https://github.com/nicoherbigio/typo3-cms-configuration/issues"
+  },
+
+  "config": {
+    "vendor-dir": "build/vendor",
+    "bin-dir": "build/bin"
+  },
+
+  "require": {
+    "typo3/cms": "^8.0"
+  },
+
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": "build/web"
+    }
+  },
+
+  "replace": {
+    "typo3-cms-configuration": "self.version"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "NicoHerbig\\TYPO3\\CMS\\Configuration\\": "src/"
+    }
+  }
+}

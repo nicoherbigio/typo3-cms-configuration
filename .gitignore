@@ -1,0 +1,10 @@
+# Mac
+.DS_Store
+
+# PhpStorm
+.idea/
+
+# Composer
+build/
+composer.lock
+composer.phar
