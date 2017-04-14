@@ -1,5 +1,5 @@
 {
-  "name": "nicoherbig/typo3-cms-configuration",
+  "name": "nicoherbigio/typo3-cms-configuration",
   "description": "TYPO3 CMS Configuration",
 
   "keywords": ["TYPO3 CMS"],
@@ -41,7 +41,7 @@
 
   "autoload": {
     "psr-4": {
-      "NicoHerbig\\TYPO3\\CMS\\Configuration\\": "src/"
+      "NicoHerbigIo\\TYPO3\\CMS\\Configuration\\": "src/"
     }
   }
 }

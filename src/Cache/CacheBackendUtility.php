@@ -1,5 +1,5 @@
 <?php
-namespace NicoHerbig\TYPO3\CMS\Configuration\Cache;
+namespace NicoHerbigIo\TYPO3\CMS\Configuration\Cache;
 
 use TYPO3\CMS\Core\Cache\Backend\ApcuBackend;
 use TYPO3\CMS\Core\Cache\Backend\NullBackend;
