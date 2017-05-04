@@ -25,7 +25,7 @@
   },
 
   "require": {
-    "typo3/cms": "^8.0"
+    "typo3/cms": "^7.6 || ^8.7"
   },
 
   "extra": {
