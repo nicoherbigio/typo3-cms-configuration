@@ -1,10 +1,16 @@
+### Ignore operating system-specific files and directories
+
 # Mac
 .DS_Store
+
+
+### Ignore development environment-specific files and directories
 
 # PhpStorm
 .idea/
 
-# Composer
-build/
+### Ignore build-specific files and directories
+
+.build/
 composer.lock
 composer.phar
